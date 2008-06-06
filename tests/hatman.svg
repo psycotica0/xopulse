@@ -1,38 +1,38 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <svg
-   xmlns="http://www.w3.org/2000/svg"
-   version="1.0">
-  <g
-     id="hatman"
-     transform="translate(-247.82567,-378.91584)">
-    <path
-       d="M 242.92337,400.03461 C 242.92337,408.43844 237.0782,415.25109 229.86781,415.25109 C 222.65743,415.25109 216.81226,408.43844 216.81226,400.03461 C 216.81226,391.63078 222.65743,384.81813 229.86781,384.81813 C 237.0782,384.81813 242.92337,391.63078 242.92337,400.03461 L 242.92337,400.03461 z"
-       transform="matrix(0.8263189,0,0,0.8805695,70.896865,45.525374)"
-       id="head"
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
-    <path
-       d="M 258,410 L 260,440"
-       id="body"
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
-    <path
-       d="M 260,440 L 250,470"
-       id="left-leg"
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
-    <path
-       d="M 260,440 L 270,470"
-       id="right-leg"
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
-    <path
-       d="M 258.5,415 L 253,425 L 251, 436"
-       id="left-arm"
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
-    <path
-       d="M 258.5,415 L 263,425 L 270,435"
-       id="right-arm"
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
-    <path
-       d="M 248,393.5 L 268,384 L 264,385.5 L 261,379 L 249,385 L 252,391 L 248,393.5 z"
-       id="hat"
-       style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
-  </g>
+	 xmlns="http://www.w3.org/2000/svg"
+	 version="1.0">
+	<g
+		 id="hatman"
+		 transform="translate(-247.82567,-378.91584)">
+		<path
+			 d="M 242.92337,400.03461 C 242.92337,408.43844 237.0782,415.25109 229.86781,415.25109 C 222.65743,415.25109 216.81226,408.43844 216.81226,400.03461 C 216.81226,391.63078 222.65743,384.81813 229.86781,384.81813 C 237.0782,384.81813 242.92337,391.63078 242.92337,400.03461 L 242.92337,400.03461 z"
+			 transform="matrix(0.8263189,0,0,0.8805695,70.896865,45.525374)"
+			 id="head"
+			 style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+		<path
+			 d="M 258,410 L 260,440"
+			 id="body"
+			 style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+		<path
+			 d="M 260,440 L 250,470"
+			 id="left-leg"
+			 style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+		<path
+			 d="M 260,440 L 270,470"
+			 id="right-leg"
+			 style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+		<path
+			 d="M 258.5,415 L 253,425 L 251, 436"
+			 id="left-arm"
+			 style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+		<path
+			 d="M 258.5,415 L 263,425 L 270,435"
+			 id="right-arm"
+			 style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+		<path
+			 d="M 248,393.5 L 268,384 L 264,385.5 L 261,379 L 249,385 L 252,391 L 248,393.5 z"
+			 id="hat"
+			 style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+	</g>
 </svg>
