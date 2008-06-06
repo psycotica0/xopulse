@@ -1,0 +1,3 @@
+define sprite "hatman" {
+	load svg "hatman.svg";
+}

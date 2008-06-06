@@ -1,0 +1,5 @@
+at 0 scene "render_single"
+set "." width=100,height=100;
+load sprite "hatman" "hatman.@sprite";
+at 0 draw sprite "hatman" as "hatman" with x=10,y=10,z=0,angle=0.08,alpha=100,width=24,height=90;
+at 0.1 change "hatman" angle=2 in 3s;
