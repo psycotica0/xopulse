@@ -1,6 +1,6 @@
 #include "manager.h"
 
-Manager:: Manager (Instruction [] iList, cairo_t* buffer) {
+Manager:: Manager (Instruction * iList, cairo_t* buffer) {
 	return;
 }
 

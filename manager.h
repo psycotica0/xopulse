@@ -2,11 +2,11 @@
 #define _MANAGER_H_
 
 #include "instruction.h"
-#include <cairo/cairo.h>
+#include <cairo.h>
 
 class Manager {
 	public:
-		Manager(Instruction[],cairo_t *);
+		Manager(Instruction *,cairo_t *);
 		void render();
 		void repaint(int);
 };
