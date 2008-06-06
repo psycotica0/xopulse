@@ -6,7 +6,7 @@
 class Instruction {
 	public:
 		Instruction(Sprite);
-		perform();
+		void perform();
 };
 
 #endif
