@@ -1,9 +1,5 @@
 #include "manager.h"
 
-Manager:: Manager (Instruction * iList, cairo_t* buffer) {
-	return;
-}
-
 void Manager:: render () {
 	return;
 }
