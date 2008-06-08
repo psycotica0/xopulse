@@ -11,7 +11,7 @@
 class Manager {
 	protected:
 		//This contains the chronologically sorted list of actions to perform
-		std::queue<Instruction> InstructList;
+		std::queue<Instruction*> InstructList;
 		//This holds a list of all Sprites by name
 		std::map<char *, Sprite*> SpriteList;
 		//This holds a list of all sprites that are currently being drawn

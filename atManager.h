@@ -2,6 +2,7 @@
 #define _ATMANAGER_H_
 
 #include "manager.h"
+#include "instruction.h"
 
 class AtManager: public Manager {
 	protected:

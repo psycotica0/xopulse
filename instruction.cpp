@@ -1,10 +1,18 @@
 #include "instruction.h"
-#include "sprite.h"
 
-Instruction :: Instruction(Sprite target) {
+int Instruction::when() {
+	return At;
+}
+
+SetInstruction::SetInstruction (Sprite* target,int When, std::map<char *, int>* Values){
+	Target=target;
+	Parameters = Values;
+	At=When;
 	return;
-}	
+}
 
-void Instruction::perform () {
+void SetInstruction::perform () {
+	//Do it!
+	Target->setParameters(Parameters);
 	return;
 }
