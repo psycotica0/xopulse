@@ -4,6 +4,12 @@
 #include "sprite.h"
 #include <map>
 
+/*
+Instruction: This is a base class for all instruction objects
+	Because perform has been made an abstract virual base class, an instruction object can never be made
+		This is ok though, because pointers to it can, and that's all this instruction is for anyway.
+	It mostly just implements functions and parameters that all instructions need.
+*/
 class Instruction {
 	protected:
 		//This is a pointer to the target of the instruction.
@@ -17,6 +23,9 @@ class Instruction {
 		virtual void perform()=0;
 };
 
+/*
+SetInstruction: This is an instruction that sets parameters in a sprite
+*/
 class SetInstruction : public Instruction {
 	protected:
 	//This is a map 

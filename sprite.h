@@ -4,6 +4,9 @@
 #include <cairo.h>
 #include <map>
 
+/*
+Sprite: This class is meant to represent the sprites on the screen.
+*/
 class Sprite {
 	protected:
 		//This is a map of all parameters and their values

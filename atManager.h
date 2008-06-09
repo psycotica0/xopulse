@@ -4,6 +4,9 @@
 #include "manager.h"
 #include "instruction.h"
 
+/*
+AtManager: This class is in charge of managing input from AtFiles.
+*/
 class AtManager: public Manager {
 	protected:
 		//This list holds the current instructions as it's being formed.

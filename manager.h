@@ -8,6 +8,9 @@
 #include <map>
 #include <list>
 
+/*
+Manager: This is a base class that implements functions common to all managers
+*/
 class Manager {
 	protected:
 		//This contains the chronologically sorted list of actions to perform
