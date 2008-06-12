@@ -2,16 +2,16 @@
 
 all : instruction.o sprite.o manager.o atManager.o
 
-instruction.o : instruction.cpp instruction.h sprite.h
+instruction.o : instruction.cpp instruction.h sprite.h global.h
 	g++ -c instruction.cpp -o instruction.o
 
-sprite.o : sprite.cpp sprite.h
+sprite.o : sprite.cpp sprite.h global.h
 	g++ -c sprite.cpp -o sprite.o
 
-manager.o : manager.cpp manager.h instruction.h
+manager.o : manager.cpp manager.h instruction.h global.h
 	g++ -c manager.cpp -o manager.o
 
-atManager.o : manager.o atManager.h atManager.cpp
+atManager.o : manager.o atManager.h atManager.cpp global.h
 	g++ -c atManager.cpp -o atManager.o
 
 test.e : all test.cpp

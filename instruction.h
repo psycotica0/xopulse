@@ -3,6 +3,8 @@
 
 #include "sprite.h"
 #include <map>
+#include <string>
+#include "global.h"
 
 /*
 Instruction: This is a base class for all instruction objects
@@ -29,10 +31,25 @@ SetInstruction: This is an instruction that sets parameters in a sprite
 class SetInstruction : public Instruction {
 	protected:
 	//This is a map 
-	std::map<char *, int> * Parameters;
+	std::map<PARAM_MAP> * Parameters;
 	public:
 	//This constructor takes in a map of parameters and their requested values to set
-	SetInstruction (Sprite* ,int, std::map<char *, int>*);
+	SetInstruction (Sprite* ,int, std::map<PARAM_MAP>*);
+	//This function evokes the change in the sprite
+	void perform();
+};
+/*
+ChangeInstruction: This is an instruction that sets changes in parameters in a sprite
+*/
+class ChangeInstruction : public Instruction {
+	protected:
+	//This is a map 
+	std::map<PARAM_MAP> * Parameters;
+	//This holds the length of time the change occurs over
+	int Duration;
+	public:
+	//This constructor takes in a map of parameters and their requested values to set
+	ChangeInstruction (Sprite* ,int, std::map<PARAM_MAP>*,int);
 	//This function evokes the change in the sprite
 	void perform();
 };

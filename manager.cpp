@@ -5,6 +5,10 @@ render: This is the loop that runs and calculates positions.
 	It does so by calling things like repaint.
 */
 void Manager:: render () {
+	for (std::list<Sprite*>::iterator i=DrawList.begin(); i != DrawList.end(); i++ ){
+		//For testing purposes, just draw the thing
+		(*i)->repaint(0,Buffer,Parameters);
+	}
 	return;
 }
 

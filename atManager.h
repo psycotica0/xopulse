@@ -3,6 +3,8 @@
 
 #include "manager.h"
 #include "instruction.h"
+#include <string>
+#include "global.h"
 
 /*
 AtManager: This class is in charge of managing input from AtFiles.
@@ -16,6 +18,8 @@ class AtManager: public Manager {
 		void Set(int At, char* Sprite, char* Parameters);
 		//This function is called to form "Change" type instructions
 		void Change(int At, char* Sprite, char*Parameters, int Duration);
+		//This function should break up a comma separated list of parameters and values into a map
+		std::map<PARAM_MAP> BreakList ( char*);
 	public:
 		//This function takes in a file and parses it into a sorted queue of instructions.
 		void parseFile(char *);
